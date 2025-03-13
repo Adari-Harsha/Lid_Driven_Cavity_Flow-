@@ -36,7 +36,7 @@ v, q = TestFunctions(W)
 nu = 0.01
 rho = 1.0
 
-# Variational formulation
+# Variational formulation (weak form of Navier Stokes equation)
 F = (rho * inner((u - u_prev)/dt, v) * dx
      + rho * inner(dot(u_prev, nabla_grad(u)), v) * dx
      + nu * inner(grad(u), grad(v)) * dx
