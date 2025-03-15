@@ -4,7 +4,7 @@ This README file describes the FEniCS Python script for simulating the **lid-dri
 
 ## Description
 
-This script utilizes the **FEniCS** library to solve the time-dependent Navier-Stokes equations for the classic lid-driven cavity flow problem [1-3]. The simulation models a fluid confined within a unit square where the **top boundary (the lid) moves at a constant horizontal velocity**, inducing flow within the cavity. 
+This script utilizes the **FEniCS** library to solve the time-dependent Navier-Stokes equations for the classic lid-driven cavity flow problem. The simulation models a fluid confined within a unit square where the **top boundary (the lid) moves at a constant horizontal velocity**, inducing flow within the cavity. 
 The remaining **three boundaries are stationary walls** with a no-slip condition.
 
 ## Requirements
