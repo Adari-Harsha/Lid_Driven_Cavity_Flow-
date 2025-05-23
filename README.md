@@ -45,18 +45,8 @@ The time-stepping and solver parameters are configured as follows:
     *   **Maximum Iterations:** `5`.
     *   **Linear Solver:** `'mumps'` is used as a robust direct linear solver.
 
-## Running the Code
+## Results
 
-To run the FEniCS simulation, save the provided code as a Python file and execute it from your terminal using WSL or in other Linux installed system:
-
-```bash
-python lid.py
-
-````
-The script will then proceed with the time-stepping loop, solving the nonlinear variational problem at each time step and printing the current time.
-Output
-During the simulation, the script will:
-•
 Print the current time step to the console.
 •
 After the simulation completes, it will generate a set of velocity and pressure  and the corresponding saving step within the time loop as .pvd files which you can open in Paraview
@@ -64,4 +54,3 @@ After the simulation completes, it will generate a set of velocity and pressure 
 Velocity Field: A plot visualizing the velocity field within the unit square domain at the final time T.
 ◦
 Pressure Field: A plot showing the pressure distribution within the unit square domain at the final time T.
-These plots will be shown on your screen. You can modify the script for further analysis or visualization and the files are stores in .rar because they are too to large upload independetly in github
